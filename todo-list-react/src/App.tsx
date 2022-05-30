@@ -48,7 +48,7 @@ function App() {
         activeVisibilityFilter={filter}
         todos={todos}
         todosCount={todos.length}
-        completedCount={0}
+        completedCount={todos.filter((x) => x.completed).length}
         actions={{
           completeTodo,
           editTodo,
