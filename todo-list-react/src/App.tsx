@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import MainSection from './components/MainSection';
-import { Todo, Todos } from './models/Todos';
+import { Todo } from './models/Todos';
 import { VisibilityFilter, VisibilityFilters } from './models/VisibilityFilter';
 
 function App() {
